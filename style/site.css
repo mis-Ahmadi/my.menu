@@ -1,0 +1,80 @@
+body {
+    background-color: darkorchid;
+    margin: 0;
+}
+
+.welcom>label {
+    font-size: 5em;
+    color: rgb(214, 144, 214);
+    display: block;
+    margin: -75px 20px;
+    position: relative;
+    left: -680px;
+}
+
+.welcom>input:checked~div {
+    display: initial;
+    color: white;
+
+}
+
+.welcom>input:not(:checked)~div {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    background-color: rgb(61, 28, 67);
+
+
+}
+
+label {
+    text-decoration: none;
+    color: rgb(134, 129, 129);
+    position: relative;
+    /* top: 1.5em; */
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+    display: inline-block;
+
+
+
+}
+
+li {
+    /* margin: 40px; */
+    position: relative;
+    /* right: 3.8em; */
+
+}
+
+.menu label:hover {
+    color: white;
+
+}
+
+.menu>ul>#o {
+    position: relative;
+    top: 300px;
+    left: 700px;
+    font-size: xx-large;
+    margin: -90px;
+    color: white;
+}
+
+.menu>ul input:checked~div {
+    display: initial;
+
+}
+
+.menu>ul input:not(:checked)~div {
+    display: none;
+}
+
+.menu>ul input {
+    display: none;
+}
+
